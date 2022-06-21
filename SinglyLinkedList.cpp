@@ -162,7 +162,7 @@ void SinglyLinkedList::remove(int val) {
 		index++;
 	}
 }
-void SinglyLinkedList::reverse(){
+void SinglyLinkedList::reverse() {
 	if (this->head == nullptr || this->size == 1)
 		return;
 	if (this->size == 2) {
